@@ -1,0 +1,16 @@
+.notification-list{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 300px;
+    max-height: calc(100vh - 10px);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .notification-message{
+        width: 100%;
+        
+    }
+}
